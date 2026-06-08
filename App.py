@@ -1,6 +1,12 @@
 import streamlit as st
 import pandas as pd
+import streamlit as st
 
+st.set_page_config(
+    page_title="Stock Analytics Pro",
+    page_icon="📊",
+    layout="wide"
+)
 st.set_page_config(
     page_title="Stock Analytics Pro",
     page_icon="📈",
